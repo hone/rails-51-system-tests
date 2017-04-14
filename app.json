@@ -1,0 +1,12 @@
+{
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "bin/rails test:system"
+      },
+      "addons": {
+        "heroku-posgresql:hobby-dev"
+      }
+    }
+  }
+}
